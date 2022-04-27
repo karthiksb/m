@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: rec;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "rec";
+  src: local("rec"), url(../fonts/rec.otf) format("otf");
+}
